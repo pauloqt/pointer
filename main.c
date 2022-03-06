@@ -10,6 +10,7 @@ int main()
     p=&a;
 
     printf("Hello World!\n");
+    printf("Pano ba talaga to?");
 
     //value ni a, address ni a na di gumamit ng pointer
     printf("%d %p\n", a, &a);
