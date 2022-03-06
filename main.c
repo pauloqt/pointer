@@ -3,13 +3,16 @@
 
 int main()
 {
-    int a;
+    int a, b;
     int* p;
 
     a=14;
     p=&a;
 
-    printf("Hello World");
+    printf("Hello World!\n");
+    printf("Enter a number: ");
+    scanf("%d", &b);
+
     //value ni a, address ni a na di gumamit ng pointer
     printf("%d %p\n", a, &a);
     //address ni a through p, indirect operation ng variable a, and value ni a.
