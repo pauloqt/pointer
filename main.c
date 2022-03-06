@@ -10,8 +10,6 @@ int main()
     p=&a;
 
     printf("Hello World!\n");
-    printf("Enter a number: ");
-    scanf("%d", &b);
 
     //value ni a, address ni a na di gumamit ng pointer
     printf("%d %p\n", a, &a);
