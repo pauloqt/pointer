@@ -11,6 +11,7 @@ int main()
 
     printf("Hello World!\n");
     printf("Pano ba talaga to?");
+    printf("shuta beh");
 
     //value ni a, address ni a na di gumamit ng pointer
     printf("%d %p\n", a, &a);
